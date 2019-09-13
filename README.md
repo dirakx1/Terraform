@@ -1,5 +1,12 @@
 # Terraform
 
+## Multicloud provision
+
+## Tools
+* Atlantis
+* Sentinel
+* IAC testing 
+
 Por qué se debe usar terraform: 
 
 * Se integra al flujo de trabajo devops: Esto significa que  la infraestructura queda como descrita código, lo que indica que se pueden hacer pruebas sobre el mismo además de tener una descripción y replicabilidad sencilla de los ambientes.
