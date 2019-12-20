@@ -6,6 +6,8 @@
 * Atlantis
 * Sentinel
 * IAC testing 
+* vault
+* nomad
 
 Por qué se debe usar terraform: 
 
