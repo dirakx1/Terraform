@@ -23,3 +23,4 @@ lo que evita posibles riesgos de seguridad.
 ## GCP examples:
 
 * https://github.com/hashicorp/hashicat-gcp
+* https://learn.hashicorp.com/terraform/kubernetes/provision-gke-cluster
