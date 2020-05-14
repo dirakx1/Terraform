@@ -19,3 +19,7 @@ lo que evita posibles riesgos de seguridad.
 * Alta tolerancia a fallos:  En caso de fallos graves de infraestructura, los ambientes se pueden desplegar rápidamente haciendo fácil la reimplementación de los mismos. 
 
 * Los tres puntos anteriores tienen como consecuencia que sea sencillo integrar cambios fundamentales a toda la infraestructura existente.  
+
+## GCP examples:
+
+* https://github.com/hashicorp/hashicat-gcp
