@@ -20,7 +20,10 @@ lo que evita posibles riesgos de seguridad.
 
 * Los tres puntos anteriores tienen como consecuencia que sea sencillo integrar cambios fundamentales a toda la infraestructura existente.  
 
-## GCP examples:
+## TFE automation
+* https://github.com/hashicorp/terraform-guides/tree/master/operations/automation-script
+
+## GCP examples
 
 * https://github.com/hashicorp/hashicat-gcp
 * https://learn.hashicorp.com/terraform/kubernetes/provision-gke-cluster
