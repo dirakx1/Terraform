@@ -1,8 +1,7 @@
 # Create a new instance of the latest Ubuntu 20.04 on an
 # t3.micro node with a variable AWS Tag
-provider "aws" {
-  region = "${var.region}"
-}
+# Add datadog configuration and add cloudwatch configuration
+# Trigger alert when "ERROR" pops out on the logs
 
 data "aws_ami" "ubuntu" {
   most_recent = true
@@ -20,14 +19,23 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "test" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
 
   tags = {
-    Name = "${var.tag}"
+    Name = var.tag
   }
 }
+
+# Cloudwatch configuration
+
+
+module "cloudwatch_example_complete-log-metric-filter-and-alarm" {
+  source  = "terraform-aws-modules/cloudwatch/aws//examples/complete-log-metric-filter-and-alarm"
+  version = "1.3.0"
+}
+
 
 # Create a new Datadog - Amazon Web Services integration
 resource "datadog_integration_aws" "sandbox" {
