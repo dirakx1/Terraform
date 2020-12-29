@@ -27,5 +27,6 @@ provider "aws" {
     ssm            = "http://localhost:4583"
     stepfunctions  = "http://localhost:4585"
     sts            = "http://localhost:4592"
+    ec2            = "http://localhost:4597"
   }
 }
