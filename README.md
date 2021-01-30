@@ -21,6 +21,8 @@ lo que evita posibles riesgos de seguridad.
 * Los tres puntos anteriores tienen como consecuencia que sea sencillo integrar cambios fundamentales a toda la infraestructura existente.  
 
 ## TFE automation
+Encaso del uso de Terraform enterprise se pueden realizar automatizaciones interactuando con su API:
+
 * https://github.com/hashicorp/terraform-guides/tree/master/operations/automation-script
 
 ## GCP examples
