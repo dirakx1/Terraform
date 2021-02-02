@@ -29,3 +29,6 @@ Encaso del uso de Terraform enterprise se pueden realizar automatizaciones inter
 
 * https://github.com/hashicorp/hashicat-gcp
 * https://learn.hashicorp.com/terraform/kubernetes/provision-gke-cluster
+
+## Local development
+* localstack.
